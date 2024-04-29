@@ -1,0 +1,13 @@
+print("------------")
+print("Seja Bem-Vindo ao seu cálculo de contas!")
+print("------------")
+capital = int(input("Digite o seu salário atual: "))
+div = int(input("Digite sua primeira conta: "))
+div2 = int(input("Digite mais uma conta: "))
+div3 = int(input("Digite mais uma conta: "))
+
+soma = div + div2 + div3
+sobra = capital - soma
+print("Sua dívida é de R${}, sobrando R${} ao final do mês.".format(soma,capital))
+
+
